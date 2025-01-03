@@ -1,0 +1,69 @@
+.div1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    .h2{
+        font-family: "Open sans";
+        font-weight: 600;
+        font-size: 1rem;
+        margin: 2rem 0 2rem 0;
+    }
+    .forms{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        height: 60%;
+        gap: 1rem;
+        .input2{
+            width: 20rem;
+            height: 2.5rem;
+            border-radius: 0.5rem;
+            background-color: transparent;
+            color: #282c34;
+            padding: 0 0 0 2rem;
+            border:solid 3px #282c34;
+        }
+        .span{
+            position: relative;
+        }
+        .imagesw{
+            width: 1.5rem;
+            position: absolute;
+            top:10px;
+            left:10px;
+        }
+    }
+    .button11{
+        background-color: #1a5fff;
+        height: 2.5rem;
+        border-radius: 1.5rem;
+        color:white;
+        width: 100%;
+        font-family: "Open sans";
+        font-weight: 600;
+        font-size: 0.8rem;
+    }
+}
+.logout1{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 3rem;
+    left:3rem;
+    gap: 10px; 
+    cursor: pointer;
+    .p{
+        font-family: "Open sans";
+        font-weight: 600;
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:#cf3636
+    }
+}

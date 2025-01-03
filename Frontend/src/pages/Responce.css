@@ -1,0 +1,188 @@
+.body{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    .letssee{
+        font-family: "Inter";
+        font-size: 2rem;
+        font-weight: 400;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.workspace {
+    background-color: transparent;
+    padding: 20px;
+    height: 100%;
+  }
+  
+  .stats-container {
+    display: flex;
+    justify-content: center;
+    gap:15rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+  .body1{
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    margin: 1rem 0;
+  }
+  .starts {
+    background: #333;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 12rem;
+    font-size: 2rem;
+    text-align: start;
+    color: #fff;
+  }
+  
+  .views{
+    background: #333;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 12rem;
+    font-size: 2rem;
+    text-align: start;
+    color: #fff;
+  }
+  .stat span {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .table-container {
+    height: 25rem;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    margin: 2rem 5rem 2rem 5rem;
+  }
+  @media (max-width: 1060px)  {
+    .table-container {
+
+      height: 10rem;
+    }
+  }
+  .containers{
+    position: relative;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    bottom: 5rem;
+    left: 5rem;
+  }
+  @media screen and (max-width: 1030px) {
+    .containers{
+      position: relative;
+      height: 30rem;
+      display: flex;
+      justify-content: center;
+      bottom: 0rem;
+      left: 0rem;
+    }
+    
+  }
+  .chart {
+    position: absolute;
+    top:20%;
+    left: 10%;
+    width: 17rem;
+    rotate: 40deg;
+  }
+  .completerate{
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    border-radius: 0.5rem;
+    width: 15rem;
+    height: 4rem;
+    position: absolute;
+    right: 25%;
+    bottom: 12rem;
+  }
+.completed{
+  font-size: 1.2em;
+    font-weight: bold;
+ position: absolute;
+ top: 25%;
+ right: 55%;
+
+ /* bottom: 50%; */
+}
+  table {
+    width: 100vw;
+    border-collapse: collapse;
+    background: transparent;
+    border: 1px solid #444;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #444;
+  }
+  
+  th {
+    background: transparent;
+  }
+  
+  
+  .completion-chart {
+    position: relative;
+    width: 20rem;
+    margin: 0 0 0 20rem;
+  }
+  
+  .chart-overlay {
+    position: absolute;
+    top: 30%;
+    left: 135%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .completed-count {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .completion-rate {
+    font-size: 15px;
+    margin-top: 8px;
+  }
+  .rate1{
+    display: flex;
+    position: absolute;
+    bottom: 6rem;
+    left: 35rem;
+    background-color: #2e2e3e;
+    width: 12rem;
+    height: 4rem;
+    padding: 2em;
+    border: none;
+    border-radius: 0.8rem;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+  .completion-rate1{
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  
+  .textofscroll{
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
